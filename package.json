@@ -1,0 +1,34 @@
+{
+  "name": "brevisdev_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konstantin Trofimov <const.trofimov@gmail.com>",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.12.0",
+    "@babel/core": "^7.12.0",
+    "@babel/preset-env": "^7.12.0",
+    "autoprefixer": "^9.7.1",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.12",
+    "core-js": "^3.6.5",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "json-server": "^0.16.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5"
+  }
+}
